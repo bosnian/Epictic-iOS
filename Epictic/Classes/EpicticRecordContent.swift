@@ -14,5 +14,13 @@ public class EpicticRecordContent {
     
     public init(){}
     
+    public func getDict()->[String:Any]{
+        var r = [String:Any]()
+        r["identifier"] = identifier
+        r["name"] = name
+        r["properties"] = properties
+        r["base"] = base
+        return r
+    }
     
 }
