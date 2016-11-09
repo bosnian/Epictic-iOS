@@ -1,6 +1,0 @@
-use_frameworks!
-target 'Epictic_Tests' do
-  pod 'Epictic', :path => '../'
-  
-  
-end
