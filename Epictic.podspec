@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Epictic/Classes/**/*'
+  s.source_files = 'Pod/Classes/**/*'
   
   s.dependency 'Alamofire', '~> 4.0'
 end
